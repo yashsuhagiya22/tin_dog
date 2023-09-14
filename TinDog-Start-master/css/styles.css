@@ -1,0 +1,204 @@
+ body{ 
+    font-family: "Montserrat";
+    
+} 
+
+#title{
+    background-color: #ff4c68;
+}
+
+#title h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.colored-section{
+    padding:3% 15%;
+}
+
+#name{
+    font-size: 40px;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: bold; 
+
+}
+.navbar{
+    padding-left: 0;
+}
+.row{
+    padding-top: 4.5rem;
+}
+
+.collapse{
+    font-size: 20px; 
+    font-family: "Ubuntu";
+}
+
+.downlode-button{
+    margin: 5% 3% 5% 0;
+}
+
+.titel-img{
+    text-align: center;
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 57%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .titel-img {
+      width: 70%;
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
+#features{
+    font-family: "Ubuntu";
+    text-align: center  ;
+    padding:7% 15% ;
+    background-color: white;
+    position:relative;
+}
+
+.container-fluid{
+    padding: 3% 15% 5%;
+}
+
+.fear{
+    font-weight:900;
+    
+}
+
+#features p{
+    text-align: center;
+    padding: 5%;
+    color: #8f8f8f;
+    font-size: large;
+} 
+
+
+#features i{
+    font-size: 60px;
+    color: #ec6452;
+    margin-bottom: 1rem;
+}
+
+#features i:hover{
+    color: #ff4c68;
+} 
+
+#testimonials{
+    text-align: center;
+    background-color: #ec6452;
+    color: #fff;
+    
+}
+
+.carousel-item{
+    padding: 6% 15%;
+}
+
+#testimonials h2{
+    font-family: 'Montserrat';
+    font-weight:lighter;
+    line-height: 1.5;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px 20px 0 20px;
+}
+
+#press{
+    text-align: center; 
+    background-color: #ec6452;
+    padding-bottom: 3%;
+    /* padding: 0 15% 7% 15%; */
+}
+
+.logo-img{
+    width: 11%;
+    margin:20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    
+}
+
+.pricing-column{
+    padding: 3% 2%;
+    /* margin: 10px; */
+}
+
+.pricing-heding h2{
+    font-family: "Montserrat";
+    letter-spacing: 0.2rem;
+    font-size: 40px;
+}
+
+.pricing-heding p{
+    font-family: "Ubuntu";
+    font-size: 18px;
+}
+
+.row{
+    padding-top: 30px;
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 68px 147px;
+}
+
+.big-heding{
+    font-family: Montserrat-Black;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-top: 53px;
+}
+
+
+/* ------------------------- */
+
+.ikon{
+    color: black;
+    padding-bottom: 25 px;
+}
+.fb{
+    margin: 0 10px;
+}
+.twitter{
+    margin: 0 10px;
+}
+.insta{
+    margin: 0 10px;
+}
+.mail{
+    margin: 0 10px;
+}
+
+/* ------------------------- */
+
+#footer{
+    padding: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: #8f8f8f;
+}
